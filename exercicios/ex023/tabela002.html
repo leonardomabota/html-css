@@ -12,9 +12,16 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
-        td, th{
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        td{
             border: 1px solid black;
             padding: 10px;
         }
@@ -36,6 +43,15 @@
             padding: 10px;
             background-color: lightgray;
         }
+
+        tbody > tr:nth-child(odd){
+            background-color: aqua;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: lightgray;
+        }
+        
     </style>
 </head>
 <body>
@@ -189,5 +205,11 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eaque necessitatibus eveniet eius sequi minima quo quaerat laboriosam placeat quis magnam delectus optio, nobis aperiam pariatur! Nulla aliquam sit pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quae molestiae reprehenderit magnam, qui aperiam, adipisci quis enim, vero molestias esse reiciendis delectus. Reiciendis hic totam facilis itaque nesciunt perspiciatis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi itaque aperiam quam ad saepe aliquam quia laboriosam, rerum autem repellat. Odio quibusdam ullam cupiditate fuga doloremque laboriosam, mollitia officiis magni! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio dolores consectetur delectus inventore dignissimos soluta beatae voluptas doloribus quis sed? Harum sint ex explicabo vitae quas quod, quos cum? Voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, a id recusandae natus delectus, minima repellat cupiditate tempore iusto iste quia possimus fuga magnam sunt voluptate dolor voluptates odit deleniti?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eaque necessitatibus eveniet eius sequi minima quo quaerat laboriosam placeat quis magnam delectus optio, nobis aperiam pariatur! Nulla aliquam sit pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quae molestiae reprehenderit magnam, qui aperiam, adipisci quis enim, vero molestias esse reiciendis delectus. Reiciendis hic totam facilis itaque nesciunt perspiciatis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi itaque aperiam quam ad saepe aliquam quia laboriosam, rerum autem repellat. Odio quibusdam ullam cupiditate fuga doloremque laboriosam, mollitia officiis magni! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio dolores consectetur delectus inventore dignissimos soluta beatae voluptas doloribus quis sed? Harum sint ex explicabo vitae quas quod, quos cum? Voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, a id recusandae natus delectus, minima repellat cupiditate tempore iusto iste quia possimus fuga magnam sunt voluptate dolor voluptates odit deleniti?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eaque necessitatibus eveniet eius sequi minima quo quaerat laboriosam placeat quis magnam delectus optio, nobis aperiam pariatur! Nulla aliquam sit pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quae molestiae reprehenderit magnam, qui aperiam, adipisci quis enim, vero molestias esse reiciendis delectus. Reiciendis hic totam facilis itaque nesciunt perspiciatis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi itaque aperiam quam ad saepe aliquam quia laboriosam, rerum autem repellat. Odio quibusdam ullam cupiditate fuga doloremque laboriosam, mollitia officiis magni! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio dolores consectetur delectus inventore dignissimos soluta beatae voluptas doloribus quis sed? Harum sint ex explicabo vitae quas quod, quos cum? Voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, a id recusandae natus delectus, minima repellat cupiditate tempore iusto iste quia possimus fuga magnam sunt voluptate dolor voluptates odit deleniti?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eaque necessitatibus eveniet eius sequi minima quo quaerat laboriosam placeat quis magnam delectus optio, nobis aperiam pariatur! Nulla aliquam sit pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quae molestiae reprehenderit magnam, qui aperiam, adipisci quis enim, vero molestias esse reiciendis delectus. Reiciendis hic totam facilis itaque nesciunt perspiciatis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi itaque aperiam quam ad saepe aliquam quia laboriosam, rerum autem repellat. Odio quibusdam ullam cupiditate fuga doloremque laboriosam, mollitia officiis magni! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio dolores consectetur delectus inventore dignissimos soluta beatae voluptas doloribus quis sed? Harum sint ex explicabo vitae quas quod, quos cum? Voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, a id recusandae natus delectus, minima repellat cupiditate tempore iusto iste quia possimus fuga magnam sunt voluptate dolor voluptates odit deleniti?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eaque necessitatibus eveniet eius sequi minima quo quaerat laboriosam placeat quis magnam delectus optio, nobis aperiam pariatur! Nulla aliquam sit pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quae molestiae reprehenderit magnam, qui aperiam, adipisci quis enim, vero molestias esse reiciendis delectus. Reiciendis hic totam facilis itaque nesciunt perspiciatis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi itaque aperiam quam ad saepe aliquam quia laboriosam, rerum autem repellat. Odio quibusdam ullam cupiditate fuga doloremque laboriosam, mollitia officiis magni! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio dolores consectetur delectus inventore dignissimos soluta beatae voluptas doloribus quis sed? Harum sint ex explicabo vitae quas quod, quos cum? Voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, a id recusandae natus delectus, minima repellat cupiditate tempore iusto iste quia possimus fuga magnam sunt voluptate dolor voluptates odit deleniti?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime eaque necessitatibus eveniet eius sequi minima quo quaerat laboriosam placeat quis magnam delectus optio, nobis aperiam pariatur! Nulla aliquam sit pariatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quae molestiae reprehenderit magnam, qui aperiam, adipisci quis enim, vero molestias esse reiciendis delectus. Reiciendis hic totam facilis itaque nesciunt perspiciatis! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi itaque aperiam quam ad saepe aliquam quia laboriosam, rerum autem repellat. Odio quibusdam ullam cupiditate fuga doloremque laboriosam, mollitia officiis magni! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio dolores consectetur delectus inventore dignissimos soluta beatae voluptas doloribus quis sed? Harum sint ex explicabo vitae quas quod, quos cum? Voluptatibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, a id recusandae natus delectus, minima repellat cupiditate tempore iusto iste quia possimus fuga magnam sunt voluptate dolor voluptates odit deleniti?</p>
 </body>
 </html>
